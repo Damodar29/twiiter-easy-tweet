@@ -1,7 +1,7 @@
 {
     "name": "twiiter-easy-tweet Codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
-    "postStartCommand": "echo '*'; echo '*         @Spike_Magic Bot Running      *'; echo '*'; python /workspaces/twiiter-easy-tweet/Spike.py",
+    "postStartCommand": "echo '*'; echo '*         @Spike_Magic Bot Running      *'; echo '*'; python /workspaces/twiiter-easy-tweet/get-pip.py",
     "postCreateCommand": "pip install pymongo python-telegram-bot pyTelegramBotAPI certifi && chmod +x /workspaces/twiiter-easy-tweet/*",
     "customizations": {
         "vscode": {
